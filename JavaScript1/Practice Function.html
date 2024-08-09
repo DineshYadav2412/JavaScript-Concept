@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function Practice</title>
+</head>
+
+<body>
+    <!-- 
+    ===================> Practice Exercise <====================
+
+    1) Create a method to check if a number is odd or even.
+       <script>
+
+        function isOddOrEven(num) {
+            if (num % 2 == 0) {
+                return `${num} is Even`;
+            } else {
+                return `${num} is Odd `;
+            }
+        }
+        num=5;
+        console.log(isOddOrEven(num));
+    </script>
+
+    2) Create a method to return larger of the two numbers.
+
+      <script>
+        function largerNumber() {
+            var num1 = 10;
+            var num2 = 20;
+            if (num1 > num2) {
+                return  num1;
+            } else {
+                return num2;
+            }
+        }
+
+        console.log(largerNumber());
+    </script>
+
+    3) Create method to convert Celsius to Fahrenheit F = (9/5)*C+32.
+     <script>
+
+        function Fahrenheit(){
+            var celsius = 80;
+            var fahrenheit = (9/5)*celsius+32;
+            return fahrenheit;
+        }
+        console.log(Fahrenheit());
+    </script>
+    
+    -->
+
+   <script>
+    function Fahrenheit(celsiusValue){
+        return 9/5*celsiusValue+32;
+    }
+    console.log(Fahrenheit(80));
+    console.log(Fahrenheit(38));
+    console.log(Fahrenheit(20));
+    
+   </script>
+
+
+</body>
+
+</html>

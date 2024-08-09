@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects</title>
+</head>
+<body>
+    <!-- 
+    =====================> What is an Object <=========================
+
+    1] What is an Object
+    Ans: 1] Groups multiple values together in key-value pairs.
+         2] How to define : Use {} to enclose properties.
+         3] Example : product{name, price}.
+         4] Dot Notation : Use .operator to access values.
+         5] Key Benefit : Organizes related data under a single name.
+
+    2] Object Syntax
+
+    3] Accessing Objects
+    Ans: 1] Dot Notation : Access properties using . Operator like product.price
+         2] Bracket Notation : Useful for properties with special characters product ["nice-name"]. Variable can be used to access properties.
+         3] Type return Object.
+         4] Values can be added or removed to an object.
+         5] Delete Value using delete.
+
+    4] Inside Objects
+    5] Autoboxing
+    6] Object References
+    7] Object Shortcuts
+    
+    
+    
+    
+    
+    -->
+
+<!--
+    <script>
+
+        let product = {
+            comapny: "Amazon",
+            price: 199,
+            it_name: 'T-shirt',
+        };
+        console.log(typeof product);
+        console.log(product.name);
+        console.log(product);
+    </script>
+    -->
+
+    <script>
+        let product = {
+            comapny: "Amazon",
+            price: 199,
+            it_name: 'T-shirt',
+
+            displayPrice : function(){
+                console.log( `Price of the product is ${this.price}`)
+            }
+        };
+
+        product.displayPrice();
+
+        console.log("My name is Dinesh Yadav".toUpperCase());
+        console.log("My name is Dinesh Yadav".toLowerCase());
+        console.log("My name is Dinesh Yadav".length);
+        console.log("My name is Dinesh Yadav".replace('Dinesh','Ramesh Ramsundar'));
+
+    </script>
+</body>
+</html>

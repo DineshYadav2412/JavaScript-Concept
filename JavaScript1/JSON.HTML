@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON AND DOM</title>
+</head>
+
+<body>
+    <center>
+        <h1>LEARNING JSON AND DOM</h1>
+        <br>  <br> <br> <br><br><br><br>
+
+        <h5>Convert JavaScript Object to -----------  JSON Object </h5>
+        <p>JavaScript Object ------ JSON.parse() ------ JSON Object</p>
+        <br>  <br> <br>
+        <h5>Convert JSON Object to -----------  JavaScript Object </h5>
+        <p>JavaScript Object ------ JSON.stringfy() ------ JSON Object</p>
+      
+    </center>
+
+    <script>
+        
+        // let product = {
+        //     name: "Samsung Galaxy S20",
+        //     price: 10000,
+        //     color: "black",
+        //     memory: "128GB",
+        //     rating: {
+        //         stars: 4.5,
+        //         noOfReviews: 453,
+        //     },
+        // };
+        // console.log(typeof product);
+        // console.log(product);
+        // console.log(product.rating.stars);
+        // let str = JSON.stringify(product);
+        // console.log(typeof str);
+        // console.log(str);
+
+        // console.log("This new JSON Object")
+        // let nrwProduct = JSON.parse(str);
+        // console.log(typeof nrwProduct);
+        // console.log(nrwProduct);
+
+
+
+            let product = {
+            name: "Samsung Galaxy S20",
+            price: 10000,
+            color: "black",
+            memory: "128GB",
+            rating: {
+                stars: 4.5,
+                noOfReviews: 453,
+            },
+        };
+
+        localStorage.setItem('product',JSON.stringify(product));
+        console.log(localStorage.getItem('product'));
+
+
+        // localStorage.setItem('Name','Dinesh Yadav');
+        // localStorage.setItem('Price','22000');
+        // localStorage.setItem('Price1','25000');
+
+        console.log(localStorage.getItem('Name'));
+        console.log(localStorage.getItem('Price'));
+
+        // alert(localStorage.getItem('Name'));
+        // alert(localStorage.getItem('Price'));
+
+        
+
+
+    </script>
+</body>
+
+</html>

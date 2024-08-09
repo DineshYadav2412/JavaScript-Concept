@@ -1,0 +1,27 @@
+.Add-to-Bag {
+    background-color: lightgreen;
+    border: none;
+    border-radius: 5px;
+}
+
+.Move-to-WishList {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.Add-iterm {
+    background-color: lightgreen;
+    border: none;
+    border-radius: 5px;
+}
+
+.container{
+    background-color: cadetblue;
+    justify-items: center;
+    height: 100vh;
+    padding-top: 80px;
+    text-align: center;
+    border: 20px solid rgb(5, 0, 0);
+    border-radius: 5px;
+
+}

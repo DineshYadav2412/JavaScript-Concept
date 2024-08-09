@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops</title>
+</head>
+<body>
+    <center><h1>Loops</h1></center>
+
+    <script>
+        // ==============> While Loops <=====================
+
+        // let num=1;  // Intialization
+        // while (num<=10) { // Condition
+        //     console.log(num);
+        //     num = num+1; // Updating
+        // }
+        // console.log('Final value of num is : ' +num);
+
+        // let x = 0;
+        // while (x<=1) {
+        //     console.log(x);
+        //     x=Math.random() * 2;
+        // }
+        // console.log('Final value of num is : ' +x);
+
+
+        // ================> Do While Loops <====================
+
+        // let num = 0;  // Intialization
+        // do {
+        //     console.log(num);
+        //     num++;  // Updating
+        // } while (num <= 5);  // Condition
+
+
+        // ================> For Loops <====================
+
+
+        // for (Intialisation; Condition; update) {
+        //     // Body of the loop
+        // }
+
+        // for (let num = 5; num <=10; num++) {
+        //     console.log(num);  
+        // }
+
+
+        // let nums=[3,5,8,9,4,6,7];
+        // let sum=0;
+        // for(let i=0; i<nums.length; i++){
+        //     sum +=nums[i];
+        // }
+        // console.log('Sum of the array is : '+sum);
+
+        // let squares = [];
+        // for(let i=0; i<nums.length; i++){
+        //     squares[i]=nums[i] * nums[i];
+        // }
+        // console.log('Square of the array is : '+squares);
+
+
+        // let arr = [1,2,3,5,6,7,10,8,9,4];
+        // for (let i = 0; i < arr.length; i++) {
+        //     if (arr[i]===8) {
+        //         console.log(`Number found at index ${i}`);
+        //         break;
+        //     }else{
+        //         console.log(`Number not found at index ${i}`);
+        //     }
+            
+        // }
+
+
+        for (let i = 1; i<=25; i++) {
+            if (i%2==0) {
+                continue;
+            }
+            console.log(`The odd number is ${i}`);
+        }
+    </script>
+</body>
+</html>
